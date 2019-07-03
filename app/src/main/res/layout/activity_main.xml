@@ -27,13 +27,18 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="false"
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
         android:layout_marginTop="118dp"
         android:fontFamily="casual"
         android:text="@string/textview"
-        android:textAllCaps="true"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:typeface="normal" />
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        android:typeface="normal"
+        tools:layout_height="wrap_content"
+        tools:layout_width="wrap_content"
+        tools:textColor="@android:color/black" />
 </RelativeLayout>
